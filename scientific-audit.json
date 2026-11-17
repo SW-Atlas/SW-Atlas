@@ -1,0 +1,1314 @@
+{
+  "version": "0.10.2",
+  "date": "2026-11-06",
+  "originalRelationsReviewed": 85,
+  "finalRelations": 89,
+  "distinctPrimaryStudies": 56,
+  "scope": "All existing relations in eight pathway systems plus targeted drug-target mappings and the generated pharmacology overlay. Not a complete re-audit of all 88 compound dossiers or every regulatory claim.",
+  "coverage": [
+    {
+      "system": "adenosine",
+      "edge": "ad-wake-accumulation",
+      "checked": "2026-11-06",
+      "access": "Fresh primary abstract; source record saved.",
+      "assessment": "Cat basal forebrain microdialysis; association direction and regional limitation match the primary record.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9157887/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-ligand-receptor",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "Engineered human A2A–adenosine structure is active-intermediate. Structural/context classification correctly avoids a functional inference.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21593763/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-coupling",
+      "checked": "2026-11-06",
+      "access": "Fresh primary abstract and PMC full text.",
+      "assessment": "Kull supports rat striatal Gₒₗf activation; Carpenter supports engineered human mini-Gₛ association. Separate the combined node as AG-04.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27462812/",
+        "https://pubmed.ncbi.nlm.nih.gov/10999947/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-camp",
+      "checked": "2026-11-06",
+      "access": "Fresh primary abstract.",
+      "assessment": "Mouse Gnal loss abolishes adenosine-stimulated AC in caudate putamen; no VLPO/sleep endpoint is claimed.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11238742/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-vlpo",
+      "checked": "2026-11-06",
+      "access": "Fresh primary abstract.",
+      "assessment": "Rat Type-2, not all VLPO neurons: postsynaptic A2A excitation. These cells are serotonin-excited; Type-1 cells differ.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16039802/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-marker",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "Adora2a-Cre identifies the manipulated mouse population; the edge correctly does not claim direct receptor activation.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28963505/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-nac-terminal-projection",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "ChR2-labelled NAc-core cells project densely to VP; anatomy edge does not imply excitation.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28963505/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-nac-vp",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "Terminal stimulation inhibits VP firing and produces picrotoxin-sensitive IPSCs; postsynaptic molecular subtype unresolved.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28963505/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-terminal-sleep",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text; AG-05.",
+      "assessment": "VP terminal stimulation increases SWS. VP lesion necessity can be added without equating it with a unique cellular mechanism.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28963505/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-caffeine-antagonist",
+      "checked": "2026-11-06",
+      "access": "Fresh primary abstract.",
+      "assessment": "Caffeine-induced waking is lost in A2A-knockout, not A1-knockout mice; this does not mean caffeine lacks A1 antagonism.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/15965471/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-shell-context",
+      "checked": "2026-11-06",
+      "access": "Fresh primary abstract; study results.",
+      "assessment": "Mouse conditional deletion and rat RNAi implicate shell A2A receptors; correct separation from core cell manipulation.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21734299/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-shell-wake",
+      "checked": "2026-11-06",
+      "access": "Fresh primary abstract; study results.",
+      "assessment": "Loss of shell receptor signaling attenuates/prevents caffeine waking. Context sign correctly avoids saying A2A activation promotes wake.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21734299/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-gating",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text and Methods.",
+      "assessment": "Human α1β2γ2 GABA binding plus independent GABA-evoked currents support agonism. Bound cryo-EM structures are desensitized/nonconducting, not proof of an open channel.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35933426/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-current",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text; electrophysiology at −75 mV, 150 mM CsCl internal.",
+      "assessment": "Ligand-gated anion current is correct. Voltage clamp used a high-chloride internal solution; neither physiological chloride influx nor universal hyperpolarization follows. Retain current ionic-gradient limitation.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35933426/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-zolpidem",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "Human α1β2γ2 electrophysiology supports PAM; structural allosteric sites are distinct from GABA sites. The edge does not claim orthosteric agonism.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35933426/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-poa-orexin",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "Mouse POA axon stimulation suppresses orexin firing and is bicuculline-sensitive. Native receptor subunit assembly was not established.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24348342/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-poa-subset",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "TMN projection defines a POA GABA subset. The explicit warning that broader POA GABA stimulation can promote waking is supported.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28514446/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-poa-tmn",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text and figure legend.",
+      "assessment": "Chung Extended Data Fig. 2 shows terminal-evoked IPSCs in HDC-confirmed TMN cells, blocked by bicuculline; inhibition is functional, not just anatomical.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28514446/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-sleep",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text.",
+      "assessment": "Bidirectional manipulation of projection-defined cells changes sleep; soma stimulation and collaterals prevent exclusive TMN attribution.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28514446/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-histamine-local",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC3002444 full text via web.",
+      "assessment": "Rat H1/H2-mediated excitation and increased GABA input are supported. Source of the GABA input is not directly mapped; caveat retained.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20724362/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-local-inhibition",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC3002444 full text via web.",
+      "assessment": "Histamine inhibition of NA-inhibited rat cells is gabazine/TTX-sensitive; putative sleep classification remains appropriately limited.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20724362/"
+      ]
+    },
+    {
+      "system": "gaba",
+      "edge": "ga-monoamine-feedback",
+      "checked": "2026-11-06",
+      "access": "Fresh PMC full text; AG-06.",
+      "assessment": "Male mouse projection-defined VLPO GABA neurons are inhibited by NA/5HT. In-vivo sleep consequence and identity with rat physiological classes are unproven.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29915137/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "mel-mt1",
+      "checked": "2026-11-06",
+      "access": "Original abstract plus publisher-indexed original methods/PDF",
+      "assessment": "Activation denotes receptor agonism, not increased cAMP. The recombinant-cell boundary is preserved.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8977429/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "mel-mt2",
+      "checked": "2026-11-06",
+      "access": "Original PNAS/PMC abstract",
+      "assessment": "Binding and function are distinct assays; the current limitation makes this distinction.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/7568007/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "mt1-camp",
+      "checked": "2026-11-06",
+      "access": "Original abstract plus publisher-indexed original methods/PDF",
+      "assessment": "Inhibitory direction correct; PTX-sensitive family assignment does not identify a particular native SCN Gα isoform.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8977429/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "mt2-camp",
+      "checked": "2026-11-06",
+      "access": "Original PNAS/PMC abstract",
+      "assessment": "Correct inhibitory direction; no untested complete SCN signaling chain is inferred.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/7568007/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "mt1-scn",
+      "checked": "2026-11-06",
+      "access": "Original Neuron abstract",
+      "assessment": "Acute firing suppression is distinguished from circadian phase and whole-animal sleep duration.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9247266/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "mt2-pkc",
+      "checked": "2026-11-06",
+      "access": "Original abstract and publisher-indexed full-text Results/Figure 6",
+      "assessment": "MT2-associated activation is supported pharmacologically. Name antagonist selectivities and CT10 separately; not subtype-specific genetic proof.",
+      "sources": [
+        "https://journals.physiology.org/doi/10.1152/ajpcell.2001.280.1.C110"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "pkc-scn-phase",
+      "checked": "2026-11-06",
+      "access": "Fresh original Hunt and McArthur abstracts; Hunt publisher Results",
+      "assessment": "McArthur provides manipulation evidence beyond correlation. Circadian phase advance is not immediate hypnotic action; no unmeasured PLC intermediary is inserted.",
+      "sources": [
+        "https://journals.physiology.org/doi/10.1152/ajpcell.2001.280.1.C110",
+        "https://pubmed.ncbi.nlm.nih.gov/9002996/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "mt1-locomotor",
+      "checked": "2026-11-06",
+      "access": "Fresh original abstract",
+      "assessment": "Context sign is correct; separate in-vivo dose from slice concentration. No universal MT1-versus-MT2 functional division.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16098087/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "scn-dmh",
+      "checked": "2026-11-06",
+      "access": "Original abstract and publisher/PMC-indexed original Results",
+      "assessment": "Context edge correct. This anatomy was not demonstrated as a melatonin-driven serial pathway in the same experiment.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6740926/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "dmh-orexin",
+      "checked": "2026-11-06",
+      "access": "Original abstract and PMC-indexed original Results",
+      "assessment": "Context edge and apposition limit are appropriate; do not convert markers/apposition into verified excitatory functional synapses.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6740926/"
+      ]
+    },
+    {
+      "system": "melatonin",
+      "edge": "dmh-vlpo",
+      "checked": "2026-11-06",
+      "access": "Original abstract and PMC-indexed original Results",
+      "assessment": "Context sign accurately limits the evidence to anatomy and transmitter phenotype, not a measured melatonin sleep effect.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6740926/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hist-hrh1",
+      "checked": "2026-11-06",
+      "access": "Fresh primary full text/XML including construct details",
+      "assessment": "Structural layer is correct; ligand-bound active conformation is not a quantitative efficacy or human-arousal assay.",
+      "sources": [
+        "https://www.nature.com/articles/s41467-021-22427-2"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hrh1-gq",
+      "checked": "2026-11-06",
+      "access": "Fresh primary full text/XML including construct details",
+      "assessment": "Structural interface supported; do not use it to claim exclusive native Gq coupling or signal kinetics.",
+      "sources": [
+        "https://www.nature.com/articles/s41467-021-22427-2"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hrh1-ip3",
+      "checked": "2026-11-06",
+      "access": "Fresh original abstract and publisher-indexed experimental snippet; full Methods not retrievable this round",
+      "assessment": "Constitutive activity and species/cell scope supported. Keep conservative IPs wording; the detailed total-radiolabel separation protocol was not independently re-read this round. No basis to replace it with a time-resolved IP3-specific claim.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10633171/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hist-hrh3",
+      "checked": "2026-11-06",
+      "access": "Fresh original Molecular Pharmacology abstract",
+      "assessment": "Agonist direction correct; functional expression does not restrict receptor distribution to histamine neurons.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10347254/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hrh3-camp",
+      "checked": "2026-11-06",
+      "access": "Fresh original Molecular Pharmacology abstract",
+      "assessment": "Inhibitory direction correct; cell cAMP is kept separate from transmitter-release measurements.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10347254/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hrh3-release",
+      "checked": "2026-11-06",
+      "access": "Fresh original abstract and visual inspection of publisher Figure 3",
+      "assessment": "Inhibitory autoreceptor branch supported. Ligand-driven and constitutive activity are correctly distinguished; this does not exhaust H3 heteroreceptor actions.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11130725/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hrh1-bf",
+      "checked": "2026-11-06",
+      "access": "Fresh original PMC Methods and Results",
+      "assessment": "Context sign appropriate: functional dependence is not receptor localization to each cholinergic cell. Evidence concerns BF, not an H1 localization claim in TMN.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6621481/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "bf-wake",
+      "checked": "2026-11-06",
+      "access": "Fresh original PMC Methods and Results",
+      "assessment": "Direction and local dependence supported; no claim that BF cholinergic neurons are the sole normal wake mechanism.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6621481/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "orexin-ox2-hist",
+      "checked": "2026-11-06",
+      "access": "Fresh original abstract; no complete electrophysiology Methods access this round",
+      "assessment": "Pharmacology supports OX2 involvement; expression/potency does not prove OX1 absence. Current qualified subtype wording should remain.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11811995/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "ox2-tmn-hist",
+      "checked": "2026-11-06",
+      "access": "Fresh Yamanaka abstract; Carter original full-text Results/Discussion",
+      "assessment": "Excitatory connection supported; current necessity limitation overreaches from histamine synthesis to an entire neuronal projection. Apply finding ox2-tmn-hist.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11811995/",
+        "https://pubmed.ncbi.nlm.nih.gov/19726652/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hnmt-metabolism",
+      "checked": "2026-11-06",
+      "access": "Fresh original full text/XML",
+      "assessment": "Metabolic role supported. Do not convert chronic genetic perturbation into a clinical inhibitor safety/efficacy conclusion.",
+      "sources": [
+        "https://www.nature.com/articles/s41598-017-16019-8"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hist-metabolism-wake",
+      "checked": "2026-11-06",
+      "access": "Fresh original full text/XML and EEG/EMG Results",
+      "assessment": "Context sign and text correctly avoid assigning a normal-metabolism sign. Separating this endpoint from BF cortical activation improves graph fidelity.",
+      "sources": [
+        "https://www.nature.com/articles/s41598-017-16019-8"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-uptake-da",
+      "checked": "2026-11-06",
+      "access": "original_abstract",
+      "assessment": "Rat DAT, COS7 expression and sodium-dependent dopamine uptake are explicitly reported.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1765147/"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-uptake-ne",
+      "checked": "2026-11-06",
+      "access": "original_abstract",
+      "assessment": "Human NET in HeLa with sodium-dependent uptake is explicitly reported.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2008212/"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-mod-dat",
+      "checked": "2026-11-06",
+      "access": "author_posted_original_full_text",
+      "assessment": "DAT dopamine-uptake IC50 is 6390 nM (rounded to 6.4 micromolar); this is functional uptake, not a binding Ki or causal human wake endpoint.",
+      "sources": [
+        "https://doi.org/10.1124/jpet.106.106583",
+        "https://pubmed.ncbi.nlm.nih.gov/16885432/"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-mod-net",
+      "checked": "2026-11-06",
+      "access": "author_posted_original_full_text",
+      "assessment": "NET norepinephrine-uptake IC50 is 35.6 micromolar; the dopamine substrate condition is different. Current figure correctly uses norepinephrine and does not establish human NET necessity.",
+      "sources": [
+        "https://doi.org/10.1124/jpet.106.106583",
+        "https://pubmed.ncbi.nlm.nih.gov/16885432/"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-mod-da-pet",
+      "checked": "2026-11-06",
+      "access": "original_abstract",
+      "assessment": "Ten healthy men, 200/400 mg, cocaine/raclopride PET. Current wording correctly distinguishes DAT occupancy and inferred extracellular dopamine from wake causation.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19293415/"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-dat-wake",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "DAT knockout abolished the usual drug wake response but also changed baseline sleep. Current context sign and developmental limitation are appropriate. No direct NET causal chain follows.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11222668/"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-dat-d2",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Drd2 knockout attenuated GBR12909 arousal; naming GBR12909 improves specificity. D2 only, no D3/D4 implication.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20335474/"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-lc-wake",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Photostimulation supports sufficiency under tested patterns; sustained high frequency can produce arrests. It is not evidence that permanent LC loss eliminates all wake.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3174240/",
+        "https://med.stanford.edu/content/dam/sm/delecea/documents/Carter_2010_NatNeuro.pdf"
+      ]
+    },
+    {
+      "system": "monoamines",
+      "edge": "mono-orexin-lc",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Confirmed timing/laterality condition missing; endpoint is loss of Hcrt-induced latency shortening, not cessation of spontaneous awakening.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3465396/"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-ligand",
+      "checked": "2026-11-06",
+      "access": "publisher_abstract_and_figure_caption",
+      "assessment": "GABAB1/2 heteromeric assembly and agonist-responsive Kir3 function are supported; individual subunits alone couple poorly.",
+      "sources": [
+        "https://www.nature.com/articles/25360"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-girk-edge",
+      "checked": "2026-11-06",
+      "access": "publisher_abstract_and_figure_caption",
+      "assessment": "HEK293/Xenopus Kir3 functional coupling is supported; this does not establish currents in a human sleep nucleus.",
+      "sources": [
+        "https://www.nature.com/articles/25360"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-ptx-edge",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "PTX-sensitive baclofen inhibition is supported; a particular G-alpha subtype was not resolved.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6772195/"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-ca-edge",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Predominantly N-type channel currents were recorded with Ba2+ carrier. No direct presynaptic-release measurement.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6772195/"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-orexin-edge",
+      "checked": "2026-11-06",
+      "access": "full_text_sections_and_correction",
+      "assessment": "Baclofen hyperpolarization and loss after orexin-cell Gabbr1 deletion are supported; corrected panel order independently checked.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2657380/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689025/"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-stability-edge",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Fragmentation without a change in accumulated state times is supported; no direct proof that GABAB agonism increases sleep.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2657380/"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-ghb-edge",
+      "checked": "2026-11-06",
+      "access": "original_abstract",
+      "assessment": "5 mM EC50 and 69% maximum versus L-baclofen support assay-specific partial agonism. No human exposure-response or clinical mechanism is established.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10587082/"
+      ]
+    },
+    {
+      "system": "gabab",
+      "edge": "gb-ghb-hub",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "GHB/analog hub binding and thermal stabilization are supported; 5-HDC supplied the structure. Basal enzyme assays showed no inhibition; no clinical narcolepsy mechanism was proven.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8346900/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-da-d1",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Dopamine was assayed separately at both D1 and D5; family summary is supported.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10397222/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-d1-gs",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "D1 and D5 complexes were both resolved with dominant-negative Gs; structural classification is correct.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10397222/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-d1-camp",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Both D1 and D5 had individual GloSensor cAMP accumulation assays.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10397222/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-d2-gi",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "All three structures exist; D4 used a Gi/Gs chimeric G-alpha, which should be stated.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10397222/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-d2-camp",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Each D2/D3/D4 subtype was assayed in inhibition mode after 100 nM isoproterenol; no subtype borrowing.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10397222/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-d2-wake",
+      "checked": "2026-11-06",
+      "access": "original_abstract_and_figure_legends",
+      "assessment": "D2-only knockout reduced and fragmented wake, particularly early dark phase. Current context and no-D3/D4 limitation are sound.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20335474/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-vta-wake",
+      "checked": "2026-11-06",
+      "access": "full_text_sections",
+      "assessment": "Acute NREM transition and repeated wake-maintenance results are supported; acute REM negative result is missing.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5519826/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-a2a-d2",
+      "checked": "2026-11-06",
+      "access": "original_abstract",
+      "assessment": "CGS21680 lowered D2 agonist affinity in rat striatal membranes without demonstrating a physical heteromer or a sleep phenotype. Correct context sign and D2-only node.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1678519/"
+      ]
+    },
+    {
+      "system": "dopamine-receptor-system",
+      "edge": "dop-prami-rls",
+      "checked": "2026-11-06",
+      "access": "original_abstract",
+      "assessment": "344-patient, 12-week trial supports IRLS/CGI-I improvement. It does not localize receptor/circuit action or establish long-term guidance.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16931507/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-bind-ox1",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Recombinant OX1 receptor peptide pharmacology; not equivalent peptide potency.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9491897/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-bind-ox2",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Separated recombinant agonism from the distinct structural observation.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9491897/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-ox1-entry",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "CHO OX1R calcium influx and driving-force dependence; not assumed store-operated calcium entry.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10880509/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-ox1-plc",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "IP3 was measured in the CHO system; no universal neuronal one-way Gq cascade inferred.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10880509/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-entry-plc",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Calcium entry enhances PLC response to low orexin-A concentrations in this assay.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10880509/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-ox2-calcium",
+      "checked": "2026-11-06",
+      "access": "Original full-text methods and results (Zhu 2003, pp. 260–264)",
+      "assessment": "Rat OX2R-EGFP in BIM human-rat hybrid cells; PTX-insensitive fura-2 response.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12890892/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-ox2-camp",
+      "checked": "2026-11-06",
+      "access": "Original full-text methods and results (Zhu 2003, pp. 260–264)",
+      "assessment": "Rat OX2R-EGFP in BIM cells; cAMP accumulation by EIA, not direct AC activity.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12890892/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-ox2-structure",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Engineered mini-G structural complex is not a native coupling-efficiency assay.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33547286/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-lc-depol",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Rat ex-vivo postsynaptic depolarization and OX1 antagonist pharmacology; no tonic activation inferred.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10852238/",
+        "https://pubmed.ncbi.nlm.nih.gov/11750922/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-lc-perturb",
+      "checked": "2026-11-06",
+      "access": "Primary abstract and full-text conditions independently checked in the monoamine audit",
+      "assessment": "Concurrent bilateral LC intervention abolishes Hcrt-induced latency shortening; unilateral/delayed conditions do not.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22955882/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-lc-context",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "LC manipulation identifies the experimental cell population and context, not a new causal pathway.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22955882/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-rescue-context",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Regional AAV-Cre rescue includes TMN and adjacent posterior hypothalamus.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21368172/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-rescue-outcome",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Wake consolidation improved but sleep fragmentation persisted; no TMN-cell-specific attribution.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21368172/"
+      ]
+    },
+    {
+      "system": "orexin",
+      "edge": "orx-tmn",
+      "checked": "2026-11-06",
+      "access": "Primary abstract",
+      "assessment": "Rat histamine neuron excitation; the study does not establish universal projection necessity.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11811995/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-mini-gs-structure",
+      "checked": "2026-11-06",
+      "access": "Original full text",
+      "assessment": "Bounded addition; observation and interpretation limits retained.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27462812/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-a1-pharmacology",
+      "checked": "2026-11-06",
+      "access": "Primary abstract; claim limited to information available in the abstract",
+      "assessment": "Bounded addition; observation and interpretation limits retained.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17093123/"
+      ]
+    },
+    {
+      "system": "adenosine",
+      "edge": "ad-a1-orexin-inhibition",
+      "checked": "2026-11-06",
+      "access": "Primary abstract; claim limited to information available in the abstract",
+      "assessment": "Bounded addition; observation and interpretation limits retained.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17093123/"
+      ]
+    },
+    {
+      "system": "histamine",
+      "edge": "hrh3-cortical-5ht",
+      "checked": "2026-11-06",
+      "access": "Primary abstract; claim limited to information available in the abstract",
+      "assessment": "Bounded addition; observation and interpretation limits retained.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1965326/",
+        "https://pubmed.ncbi.nlm.nih.gov/3412497/"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "AG-01",
+      "severity": "high",
+      "status": "confirmed",
+      "system": "gaba",
+      "problem": "7 个药物的证据粒度不足以统一映射到人 α1β2γ2 受体档案。",
+      "current": "cinolazepam / delorazepam / pinazepam / ketazolam / nordazepam / oxazolam / clobazam: assays[0].target = gaba.",
+      "correctionZh": "以上 7 项应使用 gabaa-family。clobazam 的范围来自 α1/α2/α3/α5β2γ2S 四种组合；nordazepam 为大鼠组织结合；其余本条证据为标签或类别药理。保留 fludiazepam 的已核实人 α1β2γ2 数据，以及既有 diazepam / zolpidem / eszopiclone / zaleplon 数据。",
+      "correctionEn": "Use gabaa-family for these seven records. The clobazam range pools four α-subunit assemblies; nordazepam uses rat tissue binding, and the other cited entries are label/class evidence. Preserve independently verified subtype-specific records.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4370687/",
+        "https://pubmed.ncbi.nlm.nih.gov/2886589/",
+        "https://medikamente.basg.gv.at/documents/1-19288__DOTC_FACH_INFO.pdf",
+        "https://cima.aemps.es/cima/dochtml/ft/53884/FichaTecnica_53884.html",
+        "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_1124013B1031_3_04"
+      ],
+      "verification": {
+        "primaryChecks": "Fresh Hammer 2015 full text: human α1/2/3/5β2γ2S, Xenopus TEVC. Fresh Gobbi 1987 abstract: rat cortex/cerebellum/adrenal tissue. BASG and PMDA labels and AEMPS comparator checked; local assay scopes explicitly lack subtype resolution. AIFA endpoints were attempted but could not be independently retrieved this turn; no AIFA-specific quantitative claim is made.",
+        "preserve": "Norman 2026 PMID 41946818 independently confirms human α1β2γ2 functional assays; fludiazepam is not included in this correction."
+      }
+    },
+    {
+      "id": "AG-02",
+      "severity": "high",
+      "status": "confirmed",
+      "system": "gaba",
+      "problem": "通用关键词分类混淆结合增强、功能正向变构调节、直接激活及原药/代谢物。",
+      "current": "atlasAction classifies generic potentiation or 增强 as PAM; drug→target overlay starts from the parent drug even when the assay tested trichloroethanol.",
+      "correctionZh": "按经审核的 assay 作用类型分类。oxazepam 本条保留“增强 GABA 结合”；pentobarbital 保留“增强 GABA 电流；较高浓度直接激活”；chloral hydrate / triclofos 标明经活性代谢物三氯乙醇，或新增代谢物节点。midazolam 的原论文明确研究正向变构调节，可标为 PAM，但不应仅靠“增强”一词判定。",
+      "correctionEn": "Use reviewed assay action types. Preserve GABA-binding enhancement for the cited oxazepam assay; show both potentiation and direct activation for pentobarbital; represent trichloroethanol as the tested active metabolite for chloral hydrate and triclofos. Midazolam PAM is supported by its primary study, independently of the generic keyword.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/6135616/",
+        "https://pubmed.ncbi.nlm.nih.gov/8961191/",
+        "https://pubmed.ncbi.nlm.nih.gov/7834208/",
+        "https://pubmed.ncbi.nlm.nih.gov/9495852/",
+        "https://pubmed.ncbi.nlm.nih.gov/35285894/"
+      ],
+      "verification": {
+        "access": "Fresh primary abstracts via PubMed / Europe PMC on 2026-11-06.",
+        "pentobarbital": "Cultured rat hippocampal neurons: potentiation EC50 94 μM with 1 μM GABA; direct activation EC50 0.33 mM. Higher concentrations also block channels; one PAM label does not describe the complete concentration-dependent action.",
+        "metabolite": "PMID 7834208 directly tested trichloroethanol in mouse neurons. PMID 9495852 directly tested trichloroethanol at recombinant α2β1 and other receptors. Neither experiment demonstrates direct parent-drug receptor action.",
+        "midazolam": "PMID 35285894 explicitly investigates positive allosteric modulation of GABAA-mediated miniature IPSCs; its PAM assignment is not itself a scientific error."
+      }
+    },
+    {
+      "id": "AG-03",
+      "severity": "medium",
+      "status": "confirmed_provenance_mismatch",
+      "system": "adenosine",
+      "problem": "手工结构边已正确限定，但药物叠加图仍可从 2YDO 记录生成激动箭头。",
+      "current": "data.js adenosine→a2a activity: agonist; method Structural and functional study; source PDB 2YDO. Molecular overlay excludes the curated structural edge then synthesizes an activation edge.",
+      "correctionZh": "腺苷是 A₂A 激动剂这一药理结论不需否定，但 2YDO 结构记录应明确为正构结合证据。功能激动边必须单独绑定匹配配体和实验体系的功能来源，不能由 PDB 条目或“激动剂结合态”自动推导。",
+      "correctionEn": "Adenosine agonism is not in dispute. Treat the 2YDO entry as orthosteric binding evidence, and attach a separate ligand- and system-matched functional source to any agonism edge; a ligand-bound structure alone is insufficient.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3146096/",
+        "https://www.rcsb.org/structure/2YDO"
+      ],
+      "verification": {
+        "access": "Fresh Lebon 2011 full text and latest overlay implementation.",
+        "finding": "The reported structures are active-intermediate. The GL31 functional paragraph refers to CGS21680 stimulation; the adenosine pose itself does not measure signaling. The curated ad-ligand-receptor edge is already correct and should remain structural."
+      }
+    },
+    {
+      "id": "AG-04",
+      "severity": "medium",
+      "status": "optional_graph_precision",
+      "system": "adenosine",
+      "problem": "同一效应分子节点合并天然 Gₒₗf 与工程化 mini-Gₛ，视觉上仍可能串成 mini-Gₛ→AC 的功能链。",
+      "current": "Node Gₒₗf / mini-Gₛ receives an activation edge and connects to an AC/cAMP activation edge, although the detailed caveat separates the evidence.",
+      "correctionZh": "把 Gₒₗf 功能耦联与 mini-Gₛ 结构结合拆成两个节点/两条边。只保留 Gₒₗf→AC 功能线；mini-Gₛ 仅进入 structural 层。当前详细文字并非事实错误，属于应优先改善的图形语义。",
+      "correctionEn": "Split functional Gₒₗf coupling from structural mini-Gₛ association. Retain the AC edge from Gₒₗf only; place mini-Gₛ in the structural layer. The present caveat is accurate, but the combined node can imply an unsupported functional chain.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10999947/",
+        "https://pubmed.ncbi.nlm.nih.gov/11238742/",
+        "https://pubmed.ncbi.nlm.nih.gov/27462812/"
+      ],
+      "verification": {
+        "access": "Fresh Kull/Corvol primary abstracts and Carpenter full text.",
+        "finding": "Native striatal Gₒₗf activation and Gnal loss support the functional branch; mini-Gₛ is an engineered structural partner."
+      }
+    },
+    {
+      "id": "AG-05",
+      "severity": "low",
+      "status": "optional_evidence_completion",
+      "system": "adenosine",
+      "problem": "VP 末梢刺激的因果表述已谨慎，但可补充论文实际做过的 VP 损毁实验。",
+      "current": "The limitation states that the terminal experiment does not independently establish VP inhibition as the sole or necessary mediator.",
+      "correctionZh": "补充 VP 损毁使末梢刺激诱导的慢波睡眠增加消失；同时保留限制：这支持完整 VP 的必要性，未证明某一 VP 分子亚群的抑制是唯一机制。",
+      "correctionEn": "Add that VP lesions abolished terminal-stimulation-induced SWS. This supports a requirement for intact VP, without proving that inhibition of one molecular VP subtype is the sole mechanism.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/28963505/"
+      ],
+      "verification": {
+        "access": "Fresh Oishi 2017 full text, Results and VP lesion experiment.",
+        "finding": "The lesion experiment is positive necessity evidence for VP integrity, distinct from cell-subtype-specific mediation."
+      }
+    },
+    {
+      "id": "AG-06",
+      "severity": "low",
+      "status": "optional_population_precision",
+      "system": "gaba",
+      "problem": "同一 VLPO 节点承接两种不同物种与鉴定方式的细胞证据，容易暗示完全相同细胞群。",
+      "current": "Rat NA-inhibited putative sleep cells (Liu 2010) and mouse projection-defined VLPO GABA cells (Saito 2018) share the vlpo-sleep node.",
+      "correctionZh": "保留共同 VLPO 节点时，补充“各研究分别定义细胞群，未证明两类细胞完全重合”。更严格的图谱可拆分两个节点。不要把这些细胞与 Gallopin 的 serotonin-excited Type-2 细胞直接等同。",
+      "correctionEn": "If retaining a common VLPO node, state that the populations were defined independently and were not shown to coincide. They must not be equated with the serotonin-excited Type-2 cells of Gallopin 2005.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/20724362/",
+        "https://pubmed.ncbi.nlm.nih.gov/29915137/",
+        "https://pubmed.ncbi.nlm.nih.gov/16039802/"
+      ],
+      "verification": {
+        "access": "Fresh Liu 2010 and Saito 2018 full text; Gallopin primary abstract.",
+        "finding": "The shared node is a visual abstraction, not demonstrated cellular identity; this is a precision improvement rather than a reversed edge."
+      }
+    },
+    {
+      "severity": "high",
+      "system": "histamine",
+      "id": "ox2-tmn-hist",
+      "problem": "Hdc 缺失被扩大解释为整个 OX2R→TMN 支路非必需，混淆了递质合成缺失与神经元/投射消除。系统 designNotes 重复此表述。",
+      "current": {
+        "limitation": {
+          "zh": "该支路不是全部食欲素觉醒效应的必经通路。",
+          "en": "This branch is not obligatory for every orexin arousal effect."
+        },
+        "designNotes": {
+          "zh": "食欲素至 TMN 的连接是一条有实验证据的支路，并非所有食欲素促觉醒效应的必经通路。H₁R–Gq 复合物结构与 H₁R 构成性活性相关的肌醇磷酸（IPs）累积属于不同实验；后者不是 IP₃ 特异性测定。",
+          "en": "The orexin-to-TMN connection is experimentally supported but is not obligatory for every orexin-mediated arousal effect. The H₁R–Gq complex structure and inositol-phosphate (IPs) accumulation associated with H₁R constitutive activity are separate experiments; the latter is not an IP₃-specific assay."
+        }
+      },
+      "correctionZh": "在 Hdc 缺失小鼠中，食欲素神经元光刺激仍可缩短睡眠至觉醒的转换潜伏期，说明组胺合成对这一实验条件下的快速唤醒并非必需。该实验没有消除 TMN 神经元或选择性阻断 OX2R→TMN 投射；全身基因缺失还可能伴随发育代偿。",
+      "correctionEn": "In Hdc-deficient mice, photostimulation of orexin neurons still shortened sleep-to-wake latency, showing that histamine synthesis was not required for rapid awakening under these experimental conditions. The experiment did not ablate TMN neurons or selectively interrupt the OX2R→TMN projection; constitutive gene deletion may also permit developmental compensation.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/19726652/",
+        "https://pubmed.ncbi.nlm.nih.gov/11811995/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3849591/"
+      ],
+      "verification": "Freshly checked Carter 2009 original abstract and full-text HDC-knockout Results/Discussion. HDC deletion eliminates histamine synthesis; the intervention was not TMN-neuron ablation or projection-selective silencing. The paper itself discusses developmental compensation. Yamanaka 2002 supports the excitatory TMN connection independently."
+    },
+    {
+      "severity": "low",
+      "system": "melatonin",
+      "id": "mt2-pkc",
+      "problem": "“对 MT₂ 选择性较高的拮抗剂”笼统涵盖了选择性不同的两种工具化合物，也没有区分 PKC 实验的 CT10 条件与相移实验的两个时窗。不是对 MT₂ 参与方向的否定。",
+      "current": {
+        "statement": {
+          "zh": "对 MT₂ 选择性较高的拮抗剂阻断了褪黑素诱导的 SCN PKC 活化。",
+          "en": "Antagonists preferential for MT₂ blocked melatonin-induced PKC activation in the SCN."
+        },
+        "scope": {
+          "zh": "Long-Evans 大鼠 SCN 切片 / 药理与 PKC 测定",
+          "en": "Long-Evans rat SCN slices / pharmacology and PKC assay"
+        }
+      },
+      "correctionZh": "MT₁/MT₂ 拮抗剂 luzindole 与 MT₂ 选择性拮抗剂 4P-PDOT 均阻断了褪黑素诱导的 SCN PKC 活性升高；亚型判定主要依赖拮抗剂药理学。",
+      "correctionEn": "The MT₁/MT₂ antagonist luzindole and the MT₂-selective antagonist 4P-PDOT each blocked melatonin-induced increases in SCN PKC activity; subtype attribution rests primarily on antagonist pharmacology.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/11121382/",
+        "https://journals.physiology.org/doi/10.1152/ajpcell.2001.280.1.C110"
+      ],
+      "verification": "Original Hunt 2001 abstract and publisher-indexed Results/Figure 6 freshly checked: PKC assay at CT10, 3 pM melatonin, 1 μM luzindole or 4P-PDOT. Avoid describing this as MT2 genetic necessity or asserting exclusive subtype selectivity at all concentrations."
+    },
+    {
+      "severity": "medium",
+      "system": "histamine",
+      "id": "hist-metabolism-wake",
+      "problem": "Hnmt 缺失的光暗期睡眠–觉醒分布连到“皮层活化与觉醒”，容易把不同研究的终点合并。Naganuma 的分布表型不是 Zant 基底前脑实验中同一皮层活化指标；现有 context 符号和文字限制已经降低了风险，故列为图示改进而非现有正文事实错误。",
+      "current": {
+        "to": "hist-wake",
+        "nodeTitle": {
+          "zh": "皮层活化与觉醒",
+          "en": "Cortical activation & wake"
+        }
+      },
+      "correctionZh": "保留基底前脑研究的“皮层活化与觉醒”节点，将 HNMT 表型连接到独立的“睡眠–觉醒昼夜分布”节点。",
+      "correctionEn": "Keep the basal-forebrain endpoint “Cortical activation & wake”, and connect the HNMT phenotype to a separate “Daily sleep–wake distribution” node.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/29162912/",
+        "https://pubmed.ncbi.nlm.nih.gov/22993440/",
+        "https://www.nature.com/articles/s41598-017-16019-8"
+      ],
+      "verification": "Naganuma full text and EEG/EMG Results freshly checked: constitutive Hnmt deletion changed light/dark distribution; waking EEG showed a 3–5.5 Hz increase, not the same endpoint as Zant histamine-driven cortical activation. The existing context edge correctly avoids assigning a normal metabolic activation/inhibition sign."
+    },
+    {
+      "severity": "low",
+      "system": "melatonin",
+      "id": "mt1-locomotor",
+      "problem": "在体行为与离体 SCN 的浓度、暴露条件不同；现有简短 scope 容易被理解为同一暴露下的直接比较。",
+      "current": {
+        "zh": "小鼠在体活动与离体 SCN / CT10 给药",
+        "en": "Mouse behavior and SCN slices / CT10 dosing"
+      },
+      "correctionZh": "C57BL/6 小鼠：在体 CT10 皮下注射褪黑素 90 μg/只；另以离体 SCN 的 3–10 pM 褪黑素检验放电节律相移",
+      "correctionEn": "C57BL/6 mice: 90 μg melatonin per mouse, subcutaneous at CT10 in vivo; separately, 3–10 pM melatonin in isolated SCN preparations to test firing-rhythm phase shifts",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16098087/"
+      ],
+      "verification": "Fresh primary abstract: behavioral phase advance after CT10 90 μg/mouse subcutaneous melatonin was absent in MT1 knockout, while SCN phase responses to 3 and 10 pM melatonin persisted. Existing context sign and warning against universal MT1-sleep/MT2-phase roles are appropriate."
+    },
+    {
+      "severity": "low",
+      "system": "histamine",
+      "id": "hrh3-cortical-5ht",
+      "problem": "当前 H₃ 自受体分支正确，但图形没有一个具体异受体实例；不能将“未画出”理解为 H₃ 只在组胺末梢发挥作用。",
+      "current": "H3 graph has a histamine-release autoreceptor branch; hist-hrh3 limitation correctly states that receptor expression is not restricted to histamine neurons.",
+      "correctionZh": "可补充一条限定于大鼠皮层的 H₃→5-HT 释放抑制关系，作为异受体实例；不新增其与睡眠状态的因果箭头。",
+      "correctionEn": "Optionally add one rat-cortical H₃→5-HT-release inhibitory relationship as a heteroreceptor example, without adding a causal arrow to sleep state.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/1965326/",
+        "https://pubmed.ncbi.nlm.nih.gov/3412497/"
+      ],
+      "verification": "Fresh original PubMed abstracts checked. The 1988 slice study used 3 Hz stimulation and antagonist pharmacology; the 1990 follow-up included synaptosomes and additional H3 agonist/antagonist controls, strengthening presynaptic interpretation. Neither study measured sleep behavior."
+    },
+    {
+      "severity": "moderate",
+      "system": "monoamines",
+      "id": "mono-orexin-lc",
+      "problem": "The existing blockade description omits simultaneous and bilateral conditions and can be read as preventing awakening itself. The primary endpoint was the stimulation-induced shortening of NREM-to-wake latency.",
+      "current": {
+        "zh": "抑制 LC 或局部阻断食欲素信号，可阻断 Hcrt 神经元刺激诱发的 NREM 到觉醒转换。",
+        "en": "LC inhibition or local orexin blockade prevented Hcrt stimulation-induced NREM-to-wake transitions."
+      },
+      "correctionZh": "限定为同步双侧 LC 光抑制，或 LC 区域双侧 SB-334867 注射，消除 Hcrt 光刺激缩短 NREM–觉醒潜伏期的效应。",
+      "correctionEn": "Specify concurrent bilateral LC inhibition and loss of the latency-shortening effect.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3465396/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Results, Figures 2B–C and 3; concurrent bilateral inhibition effective, unilateral or subsequent inhibition ineffective."
+      }
+    },
+    {
+      "severity": "moderate",
+      "system": "dopamine-receptor-system",
+      "id": "dop-vta-wake",
+      "problem": "The NAc projection result is state and stimulation-paradigm specific. A general initiation label omits the negative acute REM result and conflates acute transitions with repeated-stimulation wake maintenance.",
+      "current": {
+        "zh": "刺激小鼠 VTA Th⁺ 神经元在 NAc 的投射可诱发并维持觉醒。",
+        "en": "Stimulating projections of mouse VTA Th⁺ neurons in NAc initiated and maintained wakefulness."
+      },
+      "correctionZh": "急性 VTA→NAc 刺激的转换结果限定为 NREM；重复刺激增加觉醒另述，并注明急性 REM 实验阴性。",
+      "correctionEn": "Separate NREM-to-wake initiation from repeated-stimulation wake maintenance and retain the negative acute REM result.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5519826/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Results, Th+ VTA projections; Fig. 7e,i,m,q,u."
+      }
+    },
+    {
+      "severity": "moderate",
+      "system": "dopamine-receptor-system",
+      "id": "dop-d2-gi",
+      "problem": "The grouped structural edge hides a material construct difference: D4 used an engineered Gi/Gs chimera, whereas D2/D3 used dominant-negative Gi. This matters if the group is used to infer native coupling or compare interfaces.",
+      "current": {
+        "zh": "结构显示受体–G 蛋白结合状态，不直接测量 G 蛋白活化、耦联效率或下游第二信使变化。",
+        "en": "The structures show receptor–G protein binding states, not direct measurements of G protein activation, coupling efficiency or downstream second-messenger changes."
+      },
+      "correctionZh": "保留结构边，明确 D4 使用 G_i/G_s 嵌合 Gα；不能将复合物解析条件等同于天然 G_i 功能测量。",
+      "correctionEn": "Keep structural evidence, but disclose the D4 Gi/Gs chimera and separate it from native functional coupling.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10397222/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Results, Cryo-EM structures; engineered D4 G protein description and Fig. 1."
+      }
+    },
+    {
+      "severity": "low",
+      "system": "dopamine-receptor-system",
+      "id": "dop-rls",
+      "problem": "The node is typed circuit although it is a clinical symptom endpoint, with no circuit localization in the cited trial.",
+      "current": {
+        "id": "dop-rls",
+        "title": {
+          "zh": "不宁腿综合征（RLS）症状改善",
+          "en": "Restless legs syndrome (RLS) symptom improvement"
+        },
+        "kind": "circuit",
+        "systemLink": null
+      },
+      "correctionZh": "RLS 症状改善归入临床结局，保留中性配色，不作为神经环路或一般促睡眠输出。",
+      "correctionEn": "Classify RLS symptom improvement as a clinical outcome with neutral styling.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16931507/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Original abstract: 12-week, 344-patient randomized trial, IRLS and CGI-I endpoints."
+      }
+    },
+    {
+      "severity": "optional",
+      "system": "monoamines",
+      "id": "mono-dat-d2",
+      "problem": "Name the actual DAT inhibitor so a compound-specific Drd2 knockout experiment is not mistaken for validation of every DAT inhibitor or of modafinil itself.",
+      "current": {
+        "zh": "Drd2 敲除削弱 DAT 抑制剂诱发的觉醒增加，支持 D₂ 受体参与该药理学反应。",
+        "en": "Drd2 deletion attenuated DAT-inhibitor-induced increases in wakefulness, supporting D₂ receptor involvement in this pharmacological response."
+      },
+      "correctionZh": "将干预药物明确为 GBR12909；不将此边用于替代莫达非尼的独立证据。",
+      "correctionEn": "Name GBR12909; do not substitute this experiment for modafinil-specific evidence.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/20335474/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Original abstract and Fig. 4: intraperitoneal GBR12909; attenuated wake effect in Drd2 knockout mice."
+      }
+    },
+    {
+      "severity": "optional",
+      "system": "gabab",
+      "id": "gb-ghb-edge",
+      "problem": "The existing millimolar potency and clinical limitation are correct. Adding the efficacy comparator makes partial agonism explicit and avoids confusing potency with efficacy.",
+      "current": {
+        "zh": "在共表达 GABA_B1/GABA_B2 和 Kir3 的卵母细胞实验中，GHB 表现为低效价部分激动剂，EC₅₀ 约为 5 mM。",
+        "en": "In oocytes coexpressing GABA_B1/GABA_B2 and Kir3, GHB behaved as a low-potency partial agonist, with an EC₅₀ of approximately 5 mM."
+      },
+      "correctionZh": "可补充该体系的最大效应约为 L-巴氯芬的 69%；仍仅为重组卵母细胞实验。",
+      "correctionEn": "Optionally give the assay maximum: 69% of L-baclofen.",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10587082/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Original abstract: EC50 approximately 5 mM and maximal stimulation 69% relative to L-baclofen; antagonists blocked the response."
+      }
+    },
+    {
+      "severity": "optional",
+      "system": "gabab",
+      "id": "gb-ca-edge",
+      "problem": "Calcium-channel current is accurate, but the assay used Ba2+ as charge carrier. This is useful when distinguishing electrophysiology from intracellular Ca2+ imaging or synaptic-release assays.",
+      "current": {
+        "zh": "大鼠 · 上颈交感神经节 · 膜片钳",
+        "en": "Rat · Superior cervical ganglion · Patch clamp"
+      },
+      "correctionZh": "在实验范围中注明 Ba²⁺ 载流，避免将电流结果当作胞内 Ca²⁺ 成像。",
+      "correctionEn": "Specify Ba²⁺ as the charge carrier; this is channel electrophysiology.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6772195/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Materials and methods, electrophysiology: Ba2+ external solution; leak subtraction with Co2+; currents primarily N-type."
+      }
+    },
+    {
+      "severity": "optional",
+      "system": "gabab",
+      "id": "gb-stability-edge",
+      "problem": "No abnormal total sleep is broader than the measured comparison. The paper reports similar accumulated state amounts despite fragmentation, not proof of normality in every sleep dimension.",
+      "current": {
+        "zh": "食欲素神经元特异性 Gabbr1 条件性敲除导致睡眠和觉醒碎片化，但总睡眠时间未出现异常，且未观察到猝倒。",
+        "en": "Orexin-neuron-specific conditional Gabbr1 knockout fragmented sleep and wake without abnormal total sleep time or observed cataplexy."
+      },
+      "correctionZh": "改为与对照相比 24 小时累计各状态时间相近；“猝倒”使用动物实验的猝倒样行为表述。",
+      "correctionEn": "Describe comparable accumulated state times and absence of observed cataplexy-like events.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2657380/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Results, oxGKO mice exhibit severe fragmentation; Fig. 5 and Table S1."
+      }
+    },
+    {
+      "severity": "optional",
+      "system": "dopamine-receptor-system",
+      "id": "dop-d1like/dop-d2like",
+      "problem": "Static family-level structural/cAMP statements are supported because Xu et al. tested every named subtype. This does not authorize drug edges supported for one subtype to terminate on the entire family node.",
+      "current": {
+        "familyNodes": [
+          "dop-d1like",
+          "dop-d2like"
+        ],
+        "staticFamilyEvidence": "Xu et al. separately tested D1,D5,D2,D3,D4"
+      },
+      "correctionZh": "保留共同信号的家族汇总；药物作用必须连至其证据对应的独立亚型。",
+      "correctionEn": "Keep verified family summaries; attach subtype-specific drug evidence only to the verified subtype.",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10397222/"
+      ],
+      "verification": {
+        "checkedOn": "2026-11-06",
+        "method": "Fresh online inspection of primary article or its original PubMed abstract; not inherited verification.",
+        "locator": "Figures 1,3,5; separate subtype assays and methods; root separately owns dynamic drug-target rendering."
+      }
+    }
+  ]
+}

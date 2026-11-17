@@ -1,0 +1,82 @@
+/* Overview filters and clinical trial cards */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.research-grid .panel { margin: 0; }
+@media (max-width: 700px) {
+  .research-grid { grid-template-columns: minmax(0,1fr); }
+}
+.catalog-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.catalog-stat {
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  gap: 4px;
+  padding: 16px;
+  text-align: left;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font: inherit;
+}
+button.catalog-stat { cursor: pointer; }
+.catalog-stat[aria-pressed="true"], button.catalog-stat:hover {
+  border-color: var(--green);
+  background: #eaf0f8;
+}
+.catalog-stat strong { font-size: 1.65rem; line-height: 1.1; }
+.catalog-stat span, .catalog-note, .catalog-card-detail { color: var(--muted); }
+.catalog-note { font-size: .9rem; }
+.catalog-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 12px;
+  margin: 20px 0 12px;
+  padding: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.catalog-filter { display: grid; gap: 4px; flex: 1 1 155px; min-width: 0; font-size: .82rem; }
+.catalog-search { flex-basis: 245px; }
+.catalog-filter input, .catalog-filter select {
+  width: 100%;
+  min-height: 40px;
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+}
+.catalog-reset { min-height: 40px; }
+.catalog-count { margin: 0 0 12px; }
+.catalog-card-detail { font-size: .82rem; }
+.clinical-study + .clinical-study { margin-top: 18px; }
+.clinical-study h4 { margin: 8px 0 12px; }
+.clinical-study h5 { margin: 16px 0 8px; font-size: .88rem; }
+.clinical-protocol {
+  padding: 12px;
+  margin: 14px 0;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+}
+.clinical-protocol summary { cursor: pointer; font-weight: 600; }
+.clinical-protocol li { margin-bottom: 4px; }
+.clinical-study a { overflow-wrap: anywhere; }
+@media (max-width: 570px) {
+  .catalog-stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .catalog-stat { padding: 12px; }
+  .catalog-filter { flex-basis: 135px; }
+  .catalog-search { flex-basis: 100%; }
+}

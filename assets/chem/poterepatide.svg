@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 555" role="img" aria-labelledby="t">
+<title id="t">Poterepatide condensed two-dimensional chemical structure</title>
+<rect width="960" height="555" fill="#fff"/>
+<g font-family="Arial, sans-serif" fill="#172735">
+<text x="40" y="47" font-size="30" font-weight="700">Poterepatide</text>
+<text x="40" y="77" font-size="20">40-residue peptide · condensed chemical structure · GSRS QKT6XK4KHV</text>
+<text x="38" y="138" font-size="17">H₂N</text>
+<rect x="80" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="115" y="108" text-anchor="middle" font-size="13" fill="#506174">1</text>
+<text x="115" y="138" text-anchor="middle" font-size="19">Y</text>
+<path d="M150 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="165" y="113" width="70" height="38" rx="6" fill="#d9eef1"/>
+<text x="200" y="108" text-anchor="middle" font-size="13" fill="#506174">2</text>
+<text x="200" y="138" text-anchor="middle" font-size="19">Aib</text>
+<path d="M235 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="250" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="285" y="108" text-anchor="middle" font-size="13" fill="#506174">3</text>
+<text x="285" y="138" text-anchor="middle" font-size="19">E</text>
+<path d="M320 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="335" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="370" y="108" text-anchor="middle" font-size="13" fill="#506174">4</text>
+<text x="370" y="138" text-anchor="middle" font-size="19">G</text>
+<path d="M405 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="420" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="455" y="108" text-anchor="middle" font-size="13" fill="#506174">5</text>
+<text x="455" y="138" text-anchor="middle" font-size="19">T</text>
+<path d="M490 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="505" y="113" width="70" height="38" rx="6" fill="#d9eef1"/>
+<text x="540" y="108" text-anchor="middle" font-size="13" fill="#506174">6</text>
+<text x="540" y="138" text-anchor="middle" font-size="19">αMeF</text>
+<path d="M575 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="590" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="625" y="108" text-anchor="middle" font-size="13" fill="#506174">7</text>
+<text x="625" y="138" text-anchor="middle" font-size="19">T</text>
+<path d="M660 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="675" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="710" y="108" text-anchor="middle" font-size="13" fill="#506174">8</text>
+<text x="710" y="138" text-anchor="middle" font-size="19">S</text>
+<path d="M745 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="760" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="795" y="108" text-anchor="middle" font-size="13" fill="#506174">9</text>
+<text x="795" y="138" text-anchor="middle" font-size="19">D</text>
+<path d="M830 131h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="845" y="113" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="880" y="108" text-anchor="middle" font-size="13" fill="#506174">10</text>
+<text x="880" y="138" text-anchor="middle" font-size="19">Y</text>
+<text x="925" y="138" font-size="19">↴</text>
+<text x="38" y="203" font-size="17">↳</text>
+<rect x="80" y="178" width="70" height="38" rx="6" fill="#d9eef1"/>
+<text x="115" y="173" text-anchor="middle" font-size="13" fill="#506174">11</text>
+<text x="115" y="203" text-anchor="middle" font-size="19">Aib</text>
+<path d="M150 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="165" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="200" y="173" text-anchor="middle" font-size="13" fill="#506174">12</text>
+<text x="200" y="203" text-anchor="middle" font-size="19">I</text>
+<path d="M235 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="250" y="178" width="70" height="38" rx="6" fill="#d9eef1"/>
+<text x="285" y="173" text-anchor="middle" font-size="13" fill="#506174">13</text>
+<text x="285" y="203" text-anchor="middle" font-size="19">Aib</text>
+<path d="M320 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="335" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="370" y="173" text-anchor="middle" font-size="13" fill="#506174">14</text>
+<text x="370" y="203" text-anchor="middle" font-size="19">L</text>
+<path d="M405 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="420" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="455" y="173" text-anchor="middle" font-size="13" fill="#506174">15</text>
+<text x="455" y="203" text-anchor="middle" font-size="19">D</text>
+<path d="M490 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="505" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="540" y="173" text-anchor="middle" font-size="13" fill="#506174">16</text>
+<text x="540" y="203" text-anchor="middle" font-size="19">K</text>
+<path d="M575 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="590" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="625" y="173" text-anchor="middle" font-size="13" fill="#506174">17</text>
+<text x="625" y="203" text-anchor="middle" font-size="19">Q</text>
+<path d="M660 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="675" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="710" y="173" text-anchor="middle" font-size="13" fill="#506174">18</text>
+<text x="710" y="203" text-anchor="middle" font-size="19">A</text>
+<path d="M745 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="760" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="795" y="173" text-anchor="middle" font-size="13" fill="#506174">19</text>
+<text x="795" y="203" text-anchor="middle" font-size="19">Q</text>
+<path d="M830 196h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="845" y="178" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="880" y="173" text-anchor="middle" font-size="13" fill="#506174">20</text>
+<text x="880" y="203" text-anchor="middle" font-size="19">A</text>
+<text x="925" y="203" font-size="19">↴</text>
+<text x="38" y="268" font-size="17">↳</text>
+<rect x="80" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="115" y="238" text-anchor="middle" font-size="13" fill="#506174">21</text>
+<text x="115" y="268" text-anchor="middle" font-size="19">E</text>
+<path d="M150 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="165" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="200" y="238" text-anchor="middle" font-size="13" fill="#506174">22</text>
+<text x="200" y="268" text-anchor="middle" font-size="19">F</text>
+<path d="M235 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="250" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="285" y="238" text-anchor="middle" font-size="13" fill="#506174">23</text>
+<text x="285" y="268" text-anchor="middle" font-size="19">V</text>
+<path d="M320 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="335" y="243" width="70" height="38" rx="6" fill="#d9eef1"/>
+<text x="370" y="238" text-anchor="middle" font-size="13" fill="#506174">24</text>
+<text x="370" y="268" text-anchor="middle" font-size="19">K*</text>
+<path d="M405 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="420" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="455" y="238" text-anchor="middle" font-size="13" fill="#506174">25</text>
+<text x="455" y="268" text-anchor="middle" font-size="19">W</text>
+<path d="M490 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="505" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="540" y="238" text-anchor="middle" font-size="13" fill="#506174">26</text>
+<text x="540" y="268" text-anchor="middle" font-size="19">L</text>
+<path d="M575 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="590" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="625" y="238" text-anchor="middle" font-size="13" fill="#506174">27</text>
+<text x="625" y="268" text-anchor="middle" font-size="19">L</text>
+<path d="M660 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="675" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="710" y="238" text-anchor="middle" font-size="13" fill="#506174">28</text>
+<text x="710" y="268" text-anchor="middle" font-size="19">K</text>
+<path d="M745 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="760" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="795" y="238" text-anchor="middle" font-size="13" fill="#506174">29</text>
+<text x="795" y="268" text-anchor="middle" font-size="19">G</text>
+<path d="M830 261h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="845" y="243" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="880" y="238" text-anchor="middle" font-size="13" fill="#506174">30</text>
+<text x="880" y="268" text-anchor="middle" font-size="19">G</text>
+<text x="925" y="268" font-size="19">↴</text>
+<text x="38" y="333" font-size="17">↳</text>
+<rect x="80" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="115" y="303" text-anchor="middle" font-size="13" fill="#506174">31</text>
+<text x="115" y="333" text-anchor="middle" font-size="19">P</text>
+<path d="M150 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="165" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="200" y="303" text-anchor="middle" font-size="13" fill="#506174">32</text>
+<text x="200" y="333" text-anchor="middle" font-size="19">S</text>
+<path d="M235 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="250" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="285" y="303" text-anchor="middle" font-size="13" fill="#506174">33</text>
+<text x="285" y="333" text-anchor="middle" font-size="19">S</text>
+<path d="M320 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="335" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="370" y="303" text-anchor="middle" font-size="13" fill="#506174">34</text>
+<text x="370" y="333" text-anchor="middle" font-size="19">G</text>
+<path d="M405 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="420" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="455" y="303" text-anchor="middle" font-size="13" fill="#506174">35</text>
+<text x="455" y="333" text-anchor="middle" font-size="19">A</text>
+<path d="M490 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="505" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="540" y="303" text-anchor="middle" font-size="13" fill="#506174">36</text>
+<text x="540" y="333" text-anchor="middle" font-size="19">P</text>
+<path d="M575 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="590" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="625" y="303" text-anchor="middle" font-size="13" fill="#506174">37</text>
+<text x="625" y="333" text-anchor="middle" font-size="19">P</text>
+<path d="M660 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="675" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="710" y="303" text-anchor="middle" font-size="13" fill="#506174">38</text>
+<text x="710" y="333" text-anchor="middle" font-size="19">P</text>
+<path d="M745 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="760" y="308" width="70" height="38" rx="6" fill="#f0f3f7"/>
+<text x="795" y="303" text-anchor="middle" font-size="13" fill="#506174">39</text>
+<text x="795" y="333" text-anchor="middle" font-size="19">S</text>
+<path d="M830 326h15" stroke="#546575" stroke-width="1.5"/>
+<rect x="845" y="308" width="70" height="38" rx="6" fill="#d9eef1"/>
+<text x="880" y="303" text-anchor="middle" font-size="13" fill="#506174">40</text>
+<text x="880" y="333" text-anchor="middle" font-size="19">K–NH₂</text>
+<path d="M40 364H920" stroke="#cfdae3"/>
+<text x="40" y="398" font-size="21" font-weight="700">K* · Lys24 ε-amide side chain</text>
+<text x="40" y="434" font-size="20">Lys–NH–[C(=O)–CH₂–O–CH₂CH₂–O–CH₂CH₂–NH]₃</text>
+<text x="40" y="465" font-size="20">–C(=O)–CH₂CH₂–CH(COOH)–NH–C(=O)–(CH₂)₂₀–COOH</text>
+<text x="40" y="510" font-size="17">Aib, 2-aminoisobutyric acid · αMeF, (2S)-α-methylphenylalanine</text>
+<text x="40" y="535" font-size="17">L-amino acids where applicable · L-γ-glutamyl center · C-terminal Lys amide</text>
+</g></svg>

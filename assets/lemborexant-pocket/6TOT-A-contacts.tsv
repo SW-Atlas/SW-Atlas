@@ -1,0 +1,19 @@
+﻿PDB	Chain	Ligand	Ligand_residue	Residue	Receptor_atom	Ligand_atom	Distance_A	Evidence	Receptor_XYZ	Ligand_XYZ	PMID	Source
+6TOT	A	NRK	401	GLN126	NE2	O19	2.706707	coordinate-proximity	[28.011, -0.75, 94.604]	[26.124, 0.052, 92.837]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	SER103	OG	N15	2.77611	coordinate-proximity	[26.675, 4.682, 97.956]	[24.554, 2.994, 97.357]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	PRO123	O	O19	3.227411	coordinate-proximity	[27.125, 0.988, 89.915]	[26.124, 0.052, 92.837]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	HIS344	CD2	C14	3.281723	coordinate-proximity	[23.157, 0.764, 99.666]	[24.692, 1.71, 96.924]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	VAL130	CG2	F30	3.30648	coordinate-proximity	[30.109, -4.087, 94.446]	[27.383, -3.891, 96.307]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	ILE314	CD1	O12	3.459257	coordinate-proximity	[24.407, -2.394, 98.579]	[23.841, -0.294, 95.889]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	ASN318	ND2	C11	3.52261	coordinate-proximity	[20.575, -3.94, 96.682]	[23.554, -4.316, 94.84]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	ALA102	CB	F29	3.562559	coordinate-proximity	[27.859, 9.134, 95.081]	[25.708, 6.316, 94.729]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	TRP112	CZ3	F29	3.621948	coordinate-proximity	[23.83, 8.958, 93.113]	[25.708, 6.316, 94.729]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	ALA127	N	O19	3.661027	coordinate-proximity	[29.121, -0.951, 90.989]	[26.124, 0.052, 92.837]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	VAL106	CB	C27	3.698966	coordinate-proximity	[21.825, 8.47, 97.985]	[23.277, 5.089, 97.607]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	ILE122	CG2	F29	3.730753	coordinate-proximity	[28.296, 6.872, 92.1]	[25.708, 6.316, 94.729]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	PHE219	CE1	C10	3.748453	coordinate-proximity	[24.7, -6.857, 92.087]	[24.165, -5.386, 95.493]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	TYR311	CE2	F30	3.757475	coordinate-proximity	[30.237, -5.721, 97.927]	[27.383, -3.891, 96.307]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	TYR348	OH	C28	3.79547	coordinate-proximity	[29.18, 3.228, 97.243]	[26.044, 1.09, 97.25]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	VAL347	CG2	F30	3.896073	coordinate-proximity	[28.076, -3.162, 100.071]	[27.383, -3.891, 96.307]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	GLN126	NE2	O19	2.706707	paper-hbond	[28.011, -0.75, 94.604]	[26.124, 0.052, 92.837]	31860301	https://files.rcsb.org/download/6TOT.cif
+6TOT	A	NRK	401	SER103	OG	N15	2.77611	paper-hbond	[26.675, 4.682, 97.956]	[24.554, 2.994, 97.357]	31860301	https://files.rcsb.org/download/6TOT.cif

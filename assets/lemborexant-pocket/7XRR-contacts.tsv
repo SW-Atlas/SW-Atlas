@@ -1,0 +1,17 @@
+﻿PDB	Chain	Ligand	Ligand_residue	Residue	Receptor_atom	Ligand_atom	Distance_A	Evidence	Receptor_XYZ	Ligand_XYZ	PMID	Source
+7XRR	A	NRK	1001	GLN134	OE1	N20	2.964269	coordinate-proximity	[-3.631, 5.485, 23.234]	[-4.293, 5.395, 20.346]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	VAL138	CG2	F30	3.419063	coordinate-proximity	[-2.643, 7.097, 27.678]	[-0.925, 7.69, 24.782]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	HIS350	NE2	C13	3.431519	coordinate-proximity	[2.188, 4.015, 18.589]	[-1.106, 4.562, 19.38]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	ILE320	CD1	C08	3.447181	coordinate-proximity	[1.888, 6.236, 22.727]	[-0.75, 8.287, 23.574]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	THR111	CG2	N15	3.449572	coordinate-proximity	[-0.285, -0.897, 20.751]	[-1.167, 2.202, 19.519]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	PRO131	CG	C22	3.457318	coordinate-proximity	[-7.955, 4.177, 18.529]	[-4.544, 3.624, 18.64]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	PHE227	CE1	C10	3.492163	coordinate-proximity	[-1.919, 12.464, 23.211]	[0.29, 9.935, 22.252]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	ALA110	CB	F29	3.553812	coordinate-proximity	[-6.568, -3.12, 19.765]	[-5.272, 0.147, 19.239]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	ASN324	OD1	C11	3.628171	coordinate-proximity	[0.096, 11.418, 18.122]	[-0.406, 9.474, 21.144]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	VAL114	CG1	C27	3.644349	coordinate-proximity	[-1.831, -0.911, 14.366]	[-1.447, 0.849, 17.534]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	THR135	CG2	C01	3.722495	coordinate-proximity	[-5.863, 9.024, 22.839]	[-3.558, 7.652, 20.258]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	ILE130	CG2	F29	3.729906	coordinate-proximity	[-8.326, 0.324, 21.373]	[-5.272, 0.147, 19.239]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	TRP120	CZ3	F29	3.740876	coordinate-proximity	[-7.119, -0.903, 16.16]	[-5.272, 0.147, 19.239]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	ASP115	OD1	C27	3.769612	coordinate-proximity	[1.819, -0.907, 16.856]	[-1.447, 0.849, 17.534]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	GLN187	NE2	C02	3.851401	coordinate-proximity	[-6.617, 9.811, 18.339]	[-3.064, 8.795, 19.424]	36417909	https://files.rcsb.org/download/7XRR.cif
+7XRR	A	NRK	1001	GLN134	OE1	N20	2.964269	coordinate-polar	[-3.631, 5.485, 23.234]	[-4.293, 5.395, 20.346]	36417909	https://files.rcsb.org/download/7XRR.cif

@@ -1,0 +1,17 @@
+﻿PDB	Chain	Ligand	Ligand_residue	Residue	Receptor_atom	Ligand_atom	Distance_A	Evidence	Receptor_XYZ	Ligand_XYZ	PMID	Source
+6TP3	B	NS2	401	ASN318	ND2	O10	2.73522	coordinate-proximity	[-28.224, 48.277, -3.202]	[-27.349, 50.748, -3.983]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	SER103	OG	C01	2.781434	coordinate-proximity	[-23.374, 57.499, -0.211]	[-25.548, 56.748, -1.775]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	GLN179	OE1	C13	2.937816	coordinate-proximity	[-27.511, 49.633, -11.072]	[-27.125, 50.193, -8.214]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	HIS344	ND1	C01	3.058385	coordinate-proximity	[-26.502, 55.317, 0.754]	[-25.548, 56.748, -1.775]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	GLN126	CG	N18	3.180162	coordinate-proximity	[-21.273, 52.701, -5.809]	[-24.263, 53.585, -6.435]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	VAL130	CG2	C31	3.407636	coordinate-proximity	[-19.907, 48.317, -5.708]	[-22.303, 49.14, -3.429]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	TRP112	CZ3	CL1	3.52747	coordinate-proximity	[-25.956, 61.785, -6.685]	[-24.679, 59.028, -4.893]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	PRO123	CA	C19	3.529798	coordinate-proximity	[-24.021, 55.728, -9.488]	[-24.329, 54.894, -6.072]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	VAL347	CG2	N32	3.549272	coordinate-proximity	[-21.409, 49.67, 0.175]	[-22.467, 50.458, -3.12]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	TYR348	OH	C04	3.67687	coordinate-proximity	[-20.788, 55.737, -2.593]	[-24.127, 54.242, -2.225]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	ILE122	CG2	C21	3.727535	coordinate-proximity	[-21.74, 59.378, -7.545]	[-23.488, 56.945, -5.327]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	GLU204	OE2	C13	3.735545	coordinate-proximity	[-30.643, 51.06, -9.123]	[-27.125, 50.193, -8.214]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	ALA127	N	C16	3.812019	coordinate-proximity	[-21.155, 51.457, -9.297]	[-24.299, 50.891, -7.217]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	TYR311	CE2	C31	3.83329	coordinate-proximity	[-19.409, 46.912, -2.265]	[-22.303, 49.14, -3.429]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	VAL106	CG2	CL1	3.958198	coordinate-proximity	[-26.961, 61.696, -3.065]	[-24.679, 59.028, -4.893]	31860301	https://files.rcsb.org/download/6TP3.cif
+6TP3	B	NS2	401	ASN318	ND2	O10	2.73522	paper-hbond	[-28.224, 48.277, -3.202]	[-27.349, 50.748, -3.983]	31860301	https://files.rcsb.org/download/6TP3.cif

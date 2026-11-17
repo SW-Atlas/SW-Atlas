@@ -1,0 +1,70 @@
+/* Reading hierarchy and collection dashboards. Colors follow style.css tokens. */
+body { font-size: 16px; line-height: 1.6; }
+.brand small, .card .subtitle, .card-meta, .pill, .effect-chip, .refline, .chem-figure figcaption { font-size: .83rem; }
+.card p, .profile-body, .record-head .subtitle, .tbl, .pairs { font-size: .94rem; }
+.catalog-note, .catalog-filter, .catalog-count { font-size: .9rem; }
+.pairs dd { overflow-wrap: anywhere; }
+.card-chem { height: 132px; max-height: none; margin: 10px 0 6px; }
+.chem-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 18px; }
+.chem-figure { max-width: none; background: var(--white); }
+.chem-figure a.chem-enlarge { display: grid; align-items: center; }
+.chem-figure img { aspect-ratio: auto; height: clamp(230px, 29vw, 365px); }
+.chem-figure figcaption { padding-top: 5px; }
+.footer { flex-wrap: wrap; }
+.home-funding { flex-basis: 100%; margin: 0; padding-top: 10px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+.home-funding[hidden] { display: none; }
+
+.atlas-stat-section { margin: 20px 0; }
+.atlas-stat-section h2 { margin: 0 0 10px; font-size: 1.28rem; }
+.atlas-stat-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.atlas-stat-grid-4 { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.atlas-stat-grid-4 .atlas-pie { flex-direction: column; align-items: flex-start; gap: 8px; }
+.atlas-stat-grid-4 .atlas-pie-chart { width: 88px; height: 88px; }
+.atlas-distribution-panel { margin: 0; }
+.atlas-distribution { list-style: none; padding: 0; margin: 0; display: grid; gap: 2px; }
+.atlas-distribution button, .dist-row {
+  width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline;
+  gap: 4px 10px; padding: 5px 7px; border: 1px solid transparent; border-radius: 6px;
+  text-align: left; color: var(--ink); background: transparent; font: inherit; font-size: .91rem;
+}
+.atlas-distribution button:hover, .atlas-distribution button[aria-pressed="true"] { border-color: #9fb6d8; background: #eef2f8; }
+.atlas-distribution strong { font-variant-numeric: tabular-nums; }
+.dist-track { grid-column: 1/-1; height: 5px; border-radius: 5px; background: #e6ebf3; }
+.dist-track span { display: block; width: var(--share); height: 100%; border-radius: inherit; background: #1a4f8b; }
+.atlas-pie { display: flex; align-items: center; gap: 14px; }
+.atlas-pie-chart { width: 96px; height: 96px; flex: none; }
+.atlas-pie-legend { flex: 1; min-width: 0; }
+.atlas-pie-legend button, .atlas-pie-legend .dist-row { grid-template-columns: auto minmax(0, 1fr) auto auto; align-items: center; }
+.atlas-distribution .dist-swatch { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.atlas-distribution .dist-pct { font-size: .8rem; color: var(--muted); }
+.atlas-distribution-panel .catalog-note { margin: 10px 0 0; line-height: 1.45; }
+@media (max-width: 700px) {
+  .atlas-pie { flex-direction: column; align-items: flex-start; }
+  .atlas-pie-chart { width: 82px; height: 82px; }
+}
+.target-card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.target-card-tags .pill { white-space: normal; }
+
+.brain-overview { margin: 20px 0; }
+.brain-layout { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+.brain-layout figure { margin: 0; min-width: 0; }
+.brain-layout figcaption { margin-top: 4px; font-size: .85rem; color: var(--muted); }
+.brain-map { display: block; width: 100%; max-height: 290px; border: 1px solid var(--line); background: #f4f7fb; border-radius: 8px; }
+.brain-map text { fill: var(--ink); font-weight: 700; font-size: 13px; }
+.brain-map .brain-orientation { fill: var(--muted); font-size: 13px; }
+.brain-point path { stroke: #5f7fa8; fill: none; }
+.brain-point circle { fill: #1a4f8b; stroke: #fff; stroke-width: 1.5; }
+.brain-selector { display: flex; gap: 10px; align-items: center; margin: 8px 0 12px; font-weight: 650; flex-wrap: wrap; }
+.brain-selector select { min-width: 0; max-width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 5px 9px; background: white; color: var(--ink); }
+.brain-evidence-item + .brain-evidence-item { margin-top: 6px; border-top: 1px solid var(--line); padding-top: 6px; }
+.brain-evidence-item summary { cursor: pointer; font-weight: 650; }
+.brain-evidence-item ul { list-style: none; padding: 0; margin: 0; }
+.brain-evidence-item li { display: grid; gap: 2px; padding: 6px 0; font-size: .88rem; overflow-wrap: anywhere; }
+.brain-evidence-item li + li { border-top: 1px solid var(--line); }
+.brain-evidence-item li span { color: var(--muted); }
+.brain-evidence-item .brain-system-link { display: inline-block; margin: 5px 0; }
+@media (max-width: 700px) {
+  .atlas-stat-grid, .brain-layout, .chem-grid { grid-template-columns: minmax(0, 1fr); }
+  .chem-figure img { height: clamp(235px, 83vw, 350px); }
+  .card-chem { height: 150px; }
+}

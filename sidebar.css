@@ -1,0 +1,72 @@
+/* Fixed left sidebar navigation (deep-sea DB style). */
+.sidebar {
+  position: fixed; top: 0; bottom: 0; left: 0; width: 200px;
+  background: #fff; border-right: 1px solid var(--line);
+  overflow-y: auto; z-index: 10;
+  display: flex; flex-direction: column;
+}
+.sidebar-masthead {
+  padding: 15px 13px 13px; border-bottom: 1px solid var(--line); flex: 0 0 auto;
+}
+.sidebar-masthead .brand { font-size: 15px; letter-spacing: .04em; }
+.sidebar-masthead .mark { width: 30px; height: 30px; font-size: 19px; border-radius: 7px; }
+.sidebar-masthead .brand small { font-size: 10px; }
+.sidebar-group { display: flex; flex-direction: column; }
+.sidebar-label { padding: 7px 10px 3px; font-size: 10.5px; font-weight: 700; letter-spacing: .04em; color: var(--muted); }
+.sidebar-label .en { display: none; }
+html[lang="en"] .sidebar-label .zh { display: none; }
+html[lang="en"] .sidebar-label .en { display: inline; }
+.sidebar-nav, .sidebar-tools { display: flex; flex-direction: column; gap: 2px; padding: 6px 8px 10px; }
+.sidebar-tools { border-top: 1px solid var(--line); padding-top: 10px; }
+.sidebar-toc { display: flex; flex-direction: column; border-top: 1px solid var(--line); margin-top: 6px; padding: 8px; overflow-y: auto; }
+.toc-compound { display: block; padding: 2px 10px 8px; font-family: var(--font-display); font-size: 15px; font-weight: 700; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.toc-compound:hover { color: var(--green); }
+.sidebar-toc-title { padding: 2px 10px 5px; font-size: 10.5px; font-weight: 700; letter-spacing: .04em; color: var(--muted); }
+.sidebar-toc ol { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 2px; }
+.sidebar-toc ol a { display: flex; align-items: baseline; gap: 8px; padding: 7px 10px; border-radius: 6px; color: var(--ink); font-size: 13px; font-weight: 600; text-decoration: none; line-height: 1.4; }
+.sidebar-toc ol a span { color: var(--green); font-size: 11px; font-variant-numeric: tabular-nums; }
+.sidebar-toc ol a:hover, .sidebar-toc ol a[aria-current="location"] { background: var(--surface); color: var(--green); }
+.sidebar-nav .nav-item, .sidebar-tools .workspace-tool {
+  display: block; padding: 8px 10px; border-radius: 6px; border: 1px solid transparent;
+  color: var(--ink); font-size: 13px; font-weight: 600; text-decoration: none; line-height: 1.35;
+}
+.sidebar-nav .nav-item:hover, .sidebar-nav .nav-item[aria-current],
+.sidebar-tools .workspace-tool:hover, .sidebar-tools .workspace-tool[aria-current] {
+  background: var(--surface); color: var(--green);
+}
+.sidebar-nav .nav-item[aria-current] { background: #eaf0f8; font-weight: 700; }
+.sidebar-tools .workspace-tool { color: var(--muted); font-size: 12.5px; font-weight: 550; }
+.sidebar .language {
+  display: block; margin: auto 10px 14px; padding: 7px; text-align: center;
+  border: 1px solid var(--line); border-radius: 7px; color: var(--green); font-size: 12px; font-weight: 600; text-decoration: none;
+}
+.sidebar .language:hover { background: var(--surface); }
+.main-area { margin-left: 200px; min-height: 100vh; }
+
+/* Regulation page: system switcher moved to the left (like the drug/target TOC). */
+.reg-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 16px; align-items: start; margin-top: 14px; }
+.reg-system-nav { position: sticky; top: 12px; }
+.reg-system-nav .atlas-system-nav { display: flex; flex-direction: column; gap: 6px; }
+.reg-system-nav .atlas-system-link { padding: 10px 12px; border-radius: 8px; }
+.reg-content { min-width: 0; }
+
+/* With no top bar (desktop), keep the on-page TOC (profile-nav) pinned near the top. */
+@media (min-width: 901px) {
+  .profile-nav { top: 12px !important; }
+  .profile-section { scroll-margin-top: 20px; }
+}
+@media (max-width: 900px) {
+  .reg-layout { grid-template-columns: 1fr; }
+  .reg-system-nav { position: static; }
+  .reg-system-nav .atlas-system-nav { flex-direction: row; flex-wrap: wrap; }
+  .reg-system-nav .atlas-system-link { flex: 1 1 150px; }
+}
+
+@media (max-width: 900px) {
+  .sidebar { position: static; width: 100%; flex-direction: row; flex-wrap: wrap; align-items: center;
+    border-right: 0; border-bottom: 1px solid var(--line); overflow: visible; gap: 4px 10px; padding: 8px 12px; }
+  .sidebar-masthead { padding: 0; border-bottom: 0; }
+  .sidebar-nav, .sidebar-tools { flex-direction: row; flex-wrap: wrap; gap: 4px; padding: 4px 0; border-top: 0; }
+  .sidebar .language { margin: 0 0 0 auto; padding: 5px 9px; }
+  .main-area { margin-left: 0; }
+}

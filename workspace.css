@@ -1,0 +1,54 @@
+/* Workspace / home page and structure index layout. Colors come from style.css tokens. */
+.workspace-tools {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 5px 16px; min-height: 44px; padding-block: 7px;
+  border-bottom: 1px solid var(--line);
+}
+.workspace-tool { color: var(--muted); font-size: .87rem; text-decoration: none; padding: 3px 0; }
+.workspace-tool[aria-current], .workspace-tool:hover { color: var(--green); text-decoration: underline; }
+.workspace-modules { margin-top: 20px; }
+.workspace-modules h2 { margin: 0 0 10px; font-size: 1.28rem; }
+.workspace-module { display: flex; flex-direction: column; align-items: start; }
+.workspace-module h3 { margin: 4px 0 0; }
+.workspace-module .next { margin-top: auto; }
+.workspace-module-stats { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 8px 0; color: var(--muted); font-size: .86rem; }
+.workspace-module-stats strong { color: var(--green); font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+.workspace-example { margin-top: 20px; }
+.workspace-trail { list-style: none; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 9px; padding: 0; margin: 8px 0 2px; }
+.workspace-trail li { display: grid; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 7px; padding: 10px; min-width: 0; }
+.workspace-trail span { color: var(--muted); font-size: .84rem; }
+.workspace-trail a { font-weight: 650; }
+.record-shortcuts { margin: 0 0 12px; }
+.structure-scroll { background: white; border: 1px solid var(--line); border-radius: 9px; }
+.structure-index { min-width: 850px; font-size: .88rem; line-height: 1.5; }
+.structure-index th:nth-child(1) { width: 13%; }
+.structure-index th:nth-child(2) { width: 20%; }
+.structure-index th:nth-child(5) { width: 13%; }
+.structure-index th:nth-child(6) { width: 20%; }
+.structure-index th:nth-child(7) { width: 13%; }
+.structure-index th, .structure-index td { padding: 8px 9px; }
+.structure-index th button {
+  padding: 0; border: 0; background: transparent; color: inherit; font: inherit; font-weight: 650; text-align: left;
+}
+.structure-index th[aria-sort] { color: var(--green); }
+.structure-index tbody tr:nth-child(even) { background: #f7f9fc; }
+.structure-index tbody tr:hover, .structure-index tbody tr:focus-within { background: #eaf0f8; }
+.structure-index td:nth-child(3), .structure-index th:nth-child(3), .structure-index th:nth-child(4), .structure-resolution { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.structure-index small { display: block; font-size: .82rem; color: var(--muted); }
+.ev-tier { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.ev-tier::before { content: ""; width: 8px; height: 8px; border-radius: 50%; flex: 0 0 8px; }
+.ev-sites::before { background: #1a7f37; }
+.ev-complex::before { background: #c98a1b; }
+.ev-reference::before { background: #7d91ad; }
+.ev-source::before { background: #b0b8c4; }
+@media (max-width: 700px) {
+  .workspace-tools { min-height: 0; gap: 4px 12px; }
+  .workspace-tool { font-size: .83rem; }
+  .workspace-trail { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .structure-index { min-width: 860px; table-layout: fixed; font-size: .84rem; }
+  .structure-index th:nth-child(1) { width: 80px; }
+  .structure-index th:nth-child(2) { width: 117px; }
+  .structure-index th:nth-child(3) { width: 54px; }
+  .structure-index th:nth-child(4) { width: 98px; }
+  .structure-index td { overflow-wrap: anywhere; }
+  .structure-index th, .structure-index td { padding: 7px; }
+}

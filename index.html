@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="睡眠–觉醒靶标结构数据库。双语查询药物档案、靶标的实验结构及作用位点，以及睡眠–觉醒调控证据。">
+  <title>睡眠–觉醒靶标结构数据库 | SW Atlas</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css?v=1.2.0">
+  <link rel="stylesheet" href="regulation.css">
+  <link rel="stylesheet" href="pathway.css">
+  <link rel="stylesheet" href="pathway-workbench.css">
+  <link rel="stylesheet" href="pathway-library.css">
+  <link rel="stylesheet" href="suvorexant-pocket.css?v=1.2.0">
+  <link rel="stylesheet" href="catalog.css?v=0.16.1">
+  <link rel="stylesheet" href="compact.css?v=0.16.1-final">
+  <link rel="stylesheet" href="atlas-reading.css?v=0.16.3">
+  <link rel="stylesheet" href="workspace.css?v=1.0.0">
+  <link rel="stylesheet" href="sidebar.css?v=0.16.5">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-masthead" id="masthead">
+      <a class="brand" id="brand" href="#home"><span class="mark" aria-hidden="true">◒</span><span>SW ATLAS<small id="brand-text">睡眠–觉醒靶标结构数据库</small></span></a>
+    </div>
+    <nav id="nav" class="sidebar-nav" aria-label="主导航"></nav>
+    <nav id="profile-toc" class="sidebar-toc" aria-label="本页导航"></nav>
+    <a class="language" id="language" href="#en/home" lang="en" aria-label="Switch to English">English</a>
+  </aside>
+  <div class="main-area">
+    <main id="app" class="wrap"></main>
+    <footer class="wrap footer"><span id="footer-label">SW ATLAS / 课题 4 · 睡眠–觉醒研究</span><div><span class="version">v1.0.0</span><a id="footer-guide" href="#methods">数据字典与来源</a></div><p id="home-funding" class="home-funding" lang="en" hidden>This work was partially supported by the STI2030-Major Project (China) 2021ZD0203400.</p></footer>
+  </div>
+  <script src="data.js?v=0.16.1"></script>
+  <script src="tool-compounds.js?v=0.16.5"></script>
+  <script src="profiles.js"></script>
+  <script src="compounds/daridorexant.js"></script>
+  <script src="compounds/ramelteon.js"></script>
+  <script src="compounds/caffeine.js"></script>
+  <script src="compounds/doxepin.js"></script>
+  <script src="compounds/eszopiclone.js"></script>
+  <script src="compounds/tasimelteon.js"></script>
+  <script src="compounds/pitolisant.js"></script>
+  <script src="compounds/zaleplon.js"></script>
+  <script src="compounds/solriamfetol.js"></script>
+  <script src="compounds/modafinil.js"></script>
+  <script src="compounds/sodium-oxybate.js"></script>
+  <script src="compounds/armodafinil.js"></script>
+  <script src="compounds/temazepam.js"></script>
+  <script src="compounds/triazolam.js"></script>
+  <script src="compounds/estazolam.js"></script>
+  <script src="compounds/flurazepam.js"></script>
+  <script src="compounds/quazepam.js"></script>
+  <script src="compounds/methylphenidate.js"></script>
+  <script src="compounds/dextroamphetamine.js"></script>
+  <script src="compounds/amphetamine-racemate.js"></script>
+  <script src="compounds/pramipexole.js"></script>
+  <script src="compounds/ropinirole.js"></script>
+  <script src="compounds/rotigotine.js"></script>
+  <script src="compounds/gabapentin-enacarbil.js"></script>
+  <script src="compounds/vornorexant.js"></script>
+  <script src="compounds/fazamorexant.js"></script>
+  <script src="compounds/melatonin.js"></script>
+  <script src="compounds/zopiclone.js"></script>
+  <script src="compounds/doxylamine.js"></script>
+  <script src="compounds/diphenhydramine.js"></script>
+  <script src="compounds/promethazine.js"></script>
+  <script src="compounds/hydroxyzine.js"></script>
+  <script src="compounds/nitrazepam.js"></script>
+  <script src="compounds/lormetazepam.js"></script>
+  <script src="compounds/brotizolam.js"></script>
+  <script src="compounds/rilmazafone.js"></script>
+  <script src="compounds/flunitrazepam.js"></script>
+  <script src="compounds/etizolam.js"></script>
+  <script src="compounds/clomethiazole.js"></script>
+  <script src="compounds/propiomazine.js"></script>
+  <script src="compounds/chloral-hydrate.js"></script>
+  <script src="compounds/oveporexton.js"></script>
+  <script src="compounds/dimdazenil.js"></script>
+  <script src="compounds/loprazolam.js"></script>
+  <script src="compounds/lorazepam.js"></script>
+  <script src="compounds/oxazepam.js"></script>
+  <script src="compounds/midazolam.js"></script>
+  <script src="compounds/diazepam.js"></script>
+  <script src="compounds/clomipramine.js"></script>
+  <script src="compounds/pentobarbital.js"></script>
+  <script src="compounds/clonazepam.js"></script>
+  <script src="compounds/pemoline.js"></script>
+  <script src="compounds/tirzepatide.js"></script>
+  <script src="compounds/alimemazine.js"></script>
+  <script src="compounds/triclofos.js"></script>
+  <script src="compounds/bromisoval.js"></script>
+  <script src="compounds/clorazepate.js"></script>
+  <script src="compounds/bromazepam.js"></script>
+  <script src="compounds/alprazolam.js"></script>
+  <script src="compounds/phenobarbital.js"></script>
+  <script src="compounds/clotiazepam.js"></script>
+  <script src="compounds/mexazolam.js"></script>
+  <script src="compounds/cloxazolam.js"></script>
+  <script src="compounds/melperone.js"></script>
+  <script src="compounds/pipamperone.js"></script>
+  <script src="compounds/ethyl-loflazepate.js"></script>
+  <script src="compounds/levodopa.js"></script>
+  <script src="compounds/phenazepam.js"></script>
+  <script src="compounds/oxycodone.js"></script>
+  <script src="compounds/tandospirone.js"></script>
+  <script src="compounds/trimipramine.js"></script>
+  <script src="compounds/methamphetamine.js"></script>
+  <script src="compounds/cinolazepam.js"></script>
+  <script src="compounds/delorazepam.js"></script>
+  <script src="compounds/clobazam.js"></script>
+  <script src="compounds/pinazepam.js"></script>
+  <script src="compounds/prothipendyl.js"></script>
+  <script src="compounds/ketazolam.js"></script>
+  <script src="compounds/nordazepam.js"></script>
+  <script src="compounds/oxazolam.js"></script>
+  <script src="compounds/chlorprothixene.js"></script>
+  <script src="compounds/fludiazepam.js"></script>
+  <script src="compounds/acetazolamide.js"></script>
+  <script src="compounds/phenibut.js"></script>
+  <script src="compounds/fabomotizole.js"></script>
+  <script src="compounds/bromocamphor.js"></script>
+  <script src="compounds/l-tryptophan.js"></script>
+  <script src="compounds/selank.js"></script>
+  <script src="compounds/gidazepam.js"></script>
+  <script src="compounds/cinazepam.js"></script>
+  <script src="compounds/chlordiazepoxide.js"></script>
+  <script src="compounds/nimetazepam.js"></script>
+  <script src="compounds/glycine.js"></script>
+  <script src="clinical-data.js"></script>
+  <script src="compounds/clinical-lu-ah69593.js"></script>
+  <script src="compounds/clinical-vx-433.js"></script>
+  <script src="compounds/clinical-bp-205.js"></script>
+  <script src="compounds/clinical-khn707.js"></script>
+  <script src="compounds/clinical-oxytocin.js"></script>
+  <script src="compounds/clinical-crisugabalin.js"></script>
+  <script src="compounds/clinical-ofatumumab.js"></script>
+  <script src="compounds/clinical-e2086.js"></script>
+  <script src="compounds/clinical-pimavanserin.js"></script>
+  <script src="compounds/clinical-trazodone.js"></script>
+  <script src="compounds/clinical-sivopixant.js"></script>
+  <script src="compounds/clinical-sulthiame.js"></script>
+  <script src="compounds/clinical-ferric-carboxymaltose.js"></script>
+  <script src="compounds/clinical-cleminorexton.js"></script>
+  <script src="compounds/clinical-tak-360.js"></script>
+  <script src="compounds/clinical-quetiapine.js"></script>
+  <script src="compounds/clinical-dronabinol.js"></script>
+  <script src="compounds/clinical-dipyridamole.js"></script>
+  <script src="compounds/clinical-alixorexton.js"></script>
+  <script src="compounds/clinical-samelisant.js"></script>
+  <script src="compounds/clinical-hs-10506.js"></script>
+  <script src="compounds/clinical-seltorexant.js"></script>
+  <script src="compounds/clinical-cannabidiol.js"></script>
+  <script src="compounds/clinical-ribupatide.js"></script>
+  <script src="compounds/clinical-bofanglutide.js"></script>
+  <script src="compounds/clinical-hdm1005.js"></script>
+  <script src="compounds/clinical-ecnoglutide.js"></script>
+  <script src="compounds/clinical-maridebart-cafraglutide.js"></script>
+  <script src="compounds/clinical-berobenatide.js"></script>
+  <script src="compounds/clinical-eloralintide.js"></script>
+  <script src="compounds/clinical-zenagamtide.js"></script>
+  <script src="compounds/clinical-ad109.js?v=0.16.1"></script>
+  <script src="compounds/clinical-ihl-42x.js"></script>
+  <script src="compounds/clinical-sass-001.js"></script>
+  <script src="compounds/clinical-retatrutide.js"></script>
+  <script src="compounds/clinical-ubt251.js"></script>
+  <script src="compounds/clinical-mazdutide.js"></script>
+  <script src="compounds/orexin-a.js"></script>
+  <script src="compounds/clinical-sunobinop.js"></script>
+  <script src="compounds/clinical-orforglipron.js"></script>
+  <script src="compounds/clinical-lu-ah70212.js"></script>
+  <script src="compounds/clinical-lorundrostat.js"></script>
+  <script src="guide.js"></script>
+  <script src="assets/coordinates.js"></script>
+  <script src="assets/retatrutide-contacts.js"></script>
+  <script src="assets/oxytocin-contacts.js"></script>
+  <script src="assets/ligand-diagrams.js"></script>
+  <script src="assets/structure-pdb.js"></script>
+  <script src="assets/dipyridamole-contacts.js"></script>
+  <script src="assets/cannabidiol-contacts.js"></script>
+  <script src="assets/orforglipron-contacts.js"></script>
+  <script src="assets/crisugabalin-contacts.js"></script>
+  <script src="assets/sivopixant-contacts.js"></script>
+  <script src="assets/rcsb-related-pockets.js?v=1.2.0"></script>
+  <script src="assets/rcsb-related-pdb.js?v=1.2.0"></script>
+  <script src="viewer.js"></script>
+  <script src="interactions.js"></script>
+  <script src="regulation.js"></script>
+  <script src="pathway-evidence.js"></script>
+  <script src="structure-gallery.js"></script>
+  <script src="pathway-view.js"></script>
+  <script src="pathway-library.js"></script>
+  <script src="suvorexant-pocket-data.js"></script>
+  <script src="suvorexant-pocket.js"></script>
+  <script src="lemborexant-pocket-data.js"></script>
+  <script src="daridorexant-pocket-data.js"></script>
+  <script src="dora-pocket.js"></script>
+  <script src="zolpidem-pocket-data.js"></script>
+  <script src="doxepin-pocket-data.js"></script>
+  <script src="pramipexole-pocket-data.js?v=0.16.1-final"></script>
+  <script src="ramelteon-pocket-data.js?v=0.16.1-final"></script>
+  <script src="phenobarbital-pocket-data.js?v=0.16.1-final"></script>
+  <script src="binding-pocket.js?v=0.16.1-final"></script>
+  <script src="catalog.js?v=1.2.0"></script>
+  <script src="registry-audit.js"></script>
+  <script src="clinical-view.js"></script>
+  <script src="evidence-tables.js?v=0.16.1"></script>
+  <script src="evidence-ahi.js?v=0.16.1"></script>
+  <script src="evidence-circadian.js?v=0.16.1"></script>
+  <script src="overview-stats.js?v=1.2.0"></script>
+  <script src="brain-overview.js?v=0.16.3"></script>
+  <script src="workspace.js?v=1.0.0"></script>
+  <script src="gto-assays.js"></script>
+  <script src="rcsb-complexes.js"></script>
+  <script src="gto-targets.js"></script>
+  <script src="gto-ligand-links.js?v=1.2.0"></script>
+  <script src="gto-clinical.js?v=1.2.0"></script>
+  <script src="gto-refs.js?v=1.2.0"></script>
+  <script src="rcsb-related.js?v=1.2.0"></script>
+  <script src="vendor/3Dmol-2.5.5.min.js"></script>
+  <script src="structure-evidence.js?v=1.2.0"></script>
+  <script src="app.js?v=1.2.0"></script>
+</body>
+</html>
