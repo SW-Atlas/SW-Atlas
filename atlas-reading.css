@@ -11,7 +11,7 @@ body { font-size: 16px; line-height: 1.6; }
 .chem-figure img { aspect-ratio: auto; height: clamp(230px, 29vw, 365px); }
 .chem-figure figcaption { padding-top: 5px; }
 .footer { flex-wrap: wrap; }
-.home-funding { flex-basis: 100%; margin: 0; padding-top: 10px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+.home-funding { flex-basis: 100%; margin: 0; padding-top: 10px; border-top: 1px solid var(--line); color: #000; font-size: .95rem; }
 .home-funding[hidden] { display: none; }
 
 .atlas-stat-section { margin: 20px 0; }
